@@ -4,7 +4,7 @@ project(morse VERSION 0.1.0)
 FILE(GLOB mainSources *.cpp)
 FILE(GLOB srcSources src/*.cpp)
 
-add_executable(morse  
+add_executable(main  
 ${mainSources}
 ${srcSources}
 )
